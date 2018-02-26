@@ -1,4 +1,4 @@
-package com.wzy.Api;
+package com.wzy.api.IMessage;
 
 public interface IMessage {
 	/**

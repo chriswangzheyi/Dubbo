@@ -10,14 +10,14 @@
 	<name>Dubbo-Parent</name>
 	<url>http://maven.apache.org</url>
 
-<properties>
+	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<jdk.version>1.8</jdk.version>	<!-- 定义要使用的JDK版本 -->
 		<maven.compiler.plugin.version>3.6.0</maven.compiler.plugin.version> <!-- 定义程序编译的开发版本，这样整体的项目会从JDK1.5变为JDK1.8 -->
 		<maven.source.plugin.version>3.0.1</maven.source.plugin.version><!-- 定义源代码生成的插件版本信息 -->
 		<!-- 定义所有使用的开发包的版本 -->
 		<dubbo.version>2.5.3</dubbo.version>	<!-- 定义要使用的dubbo开发版本 -->
-		<zookeeper.version>3.4.9</zookeeper.version>	<!-- Zookeeper版本 -->
+		<zookeeper.version>3.4.10</zookeeper.version>	<!-- Zookeeper版本 -->
 		<zkclient.version>0.3</zkclient.version>	<!-- 定义zkClient版本 -->
 		<spring.version>4.3.5.RELEASE</spring.version>	<!-- 定义要使用的Spring版本 -->
 		<aspectj.version>1.8.10</aspectj.version>	<!-- Aspecj开发包 -->
