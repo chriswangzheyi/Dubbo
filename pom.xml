@@ -27,6 +27,7 @@
 		<commons.lang3.version>3.5</commons.lang3.version>
 		<netty.version>4.1.7.Final</netty.version>
 		<javassist.version>3.21.0-GA</javassist.version>
+		<junit.version>4.12</junit.version>
 		<remote.api.version>0.0.1-SNAPSHOT</remote.api.version>
 	</properties>
 
