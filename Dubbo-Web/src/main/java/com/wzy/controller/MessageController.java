@@ -15,6 +15,7 @@ public class MessageController {
 	@Resource
 	private IMessage message;
 	
+	/*测试请求如下： http://localhost:8080/Dubbo-Web/echo?msg=123 */
 	
 	@RequestMapping("/echo")
 	public ModelAndView echo(String msg) {
