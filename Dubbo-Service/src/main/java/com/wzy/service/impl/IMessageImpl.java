@@ -1,7 +1,5 @@
 package com.wzy.service.impl;
 
-
-
 import org.springframework.stereotype.Component;
 
 import com.wzy.api.IMessage.IMessage;
