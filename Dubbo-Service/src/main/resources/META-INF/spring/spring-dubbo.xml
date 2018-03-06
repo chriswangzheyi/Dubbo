@@ -16,6 +16,8 @@
 	<dubbo:protocol name="dubbo" port="${dubbo.protocol.port}"/>
 	<!-- 定义远程服务提供者操作的超时时间 -->
 	<dubbo:provider timeout="${dubbo.provider.timeout}"/>
+	<!-- 监控中心地址 -->
+	<dubbo:monitor address="${dubbo.monitor.address}"></dubbo:monitor>
 	<!-- 定义dubbo的远程服务接口，这个接口定义的时候需要考虑到一个版本问题 -->
 	<dubbo:service interface="com.wzy.api.IMessage.IMessage" ref="IMessageImpl" version="${dubbo.interface.version}"/>
 </beans>

@@ -1,4 +1,4 @@
-package cn.mldn.mytest01;
+package com.wzy.test;
 
 import javax.annotation.Resource;
 
