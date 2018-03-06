@@ -222,7 +222,7 @@
 			<plugin>
 				<artifactId>maven-assembly-plugin</artifactId>
 				<configuration>
-					<descriptor>src/main/assembly/assembly.xml</descriptor><!--描述文件路径 -->
+					<descriptor>src/main/assembly/assembly.xml</descriptor><!--部署描述文件路径 -->
 				</configuration>
 				<executions>
 					<execution>
