@@ -9,7 +9,7 @@ public class IMessageImpl implements IMessage {
 
 	@Override
 	public String echo(String msg) {
-		return "ECHO : " + msg;
+		return "-------------ECHO : " + msg;
 	}
 
 }

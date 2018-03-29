@@ -19,7 +19,7 @@ public class MessageController {
 	
 	@RequestMapping("/echo")
 	public ModelAndView echo(String msg) {
-		System.out.println("111111111");
+		System.out.println("----------------------------------------111111111");
 		ModelAndView mav = new ModelAndView("messages/show") ;
 		mav.addObject("info", this.message.echo(msg)) ;
 		return mav ; 

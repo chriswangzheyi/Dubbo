@@ -16,6 +16,6 @@ public class TestMessage {
 	private IMessage msg ; 
 	@Test 
 	public void testEcho() {
-		System.out.println(this.msg.echo("hello") + "  ********************** ");
+		System.out.println(this.msg.echo("  ********************** "+ "Dubbo-Test项目测试中") + "  ********************** ");
 	}
 }

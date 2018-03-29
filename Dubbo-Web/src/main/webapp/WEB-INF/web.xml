@@ -4,14 +4,12 @@
                       http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
 	version="4.0" metadata-complete="true">
 	
-	<display-name>DubboServer</display-name>
+	<display-name>Dubbo-Web</display-name>
 	
 	
 	<!-- 在WEB容器里面进行Spring容器的加载 -->
 	<listener>
-		<listener-class>
-			org.springframework.web.context.ContextLoaderListener
-		</listener-class>
+		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
 	</listener>
 	
 	<!-- 此配置描述的是在项目开发过程之中，Spring容器所需要使用到的配置文件 -->

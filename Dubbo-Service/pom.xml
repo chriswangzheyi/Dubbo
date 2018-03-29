@@ -19,7 +19,7 @@
 
 	<!-- 定义properties根目录 -->
 	<properties>
-		<profiles.dir>src/main/profiles</profiles.dir>
+		<profiles.dir>src/main/profiles</profiles.dir>    <!-- 定义profiles的根目录 -->
 		<maven.jar.plugin.version>3.0.2</maven.jar.plugin.version>
 	</properties>
 
@@ -170,7 +170,7 @@
 				<profile.dir>${profiles.dir}/dev</profile.dir>
 			</properties>
 			<activation>
-				<activeByDefault>true</activeByDefault>
+				<activeByDefault>true</activeByDefault>   <!-- 默认的profile是dev -->
 			</activation>
 		</profile>
 		<profile>
@@ -198,7 +198,7 @@
 		<resources>   
 			<resource>     <!-- 定义一个resources配置项 -->
 				<directory>src/main/resources</directory>   
-				<filtering>true</filtering>
+				<filtering>true</filtering>   <!-- true表示都输出 -->
 			</resource>
 			<resource>	<!-- 定义一个profile配置项 -->
 				<directory>${profile.dir}</directory>
